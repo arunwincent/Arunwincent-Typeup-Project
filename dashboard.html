@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeUp project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="poppins-regular">
+    <div id="firstcontainer" class="firstcontainer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>   
+       <nav class="navbar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </nav>
+        <div class="navbar-user">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg><span>User</span></p>
+        </div>
+        <button class="menu-toggle">☰</button>
+
+    </div>
+    <main>
+        <div id="container" class="container">
+            <div class="dashboardheading">
+                <h1><i class="fa-solid fa-keyboard"></i>  Typing Practice Dashboard</h1>
+                <p>Practice your typing, improve your speed, and track your accuracy.</p>
+            </div>
+            <div id="container-one" class="container-one">
+                <div id="stats-container" class="stats-container">
+                   <div id="time" class="time">
+                    <p><i class="fa-solid fa-clock" style="color: rgb(31, 76, 75);"></i> Time</p>
+                    <h3>60s</h3>
+                </div>
+                <div id="speed" class="speed">
+                    <p><i class="fa-solid fa-gauge-simple-high" style="color:rgb(31, 76, 75)"></i> Speed</p>
+                    <h3>0 WPM</h3>
+                </div>
+                <div id="accuracy" class="accuracy">
+                    <p><i class="fa-solid fa-crosshairs" style="color: rgb(31, 76, 75);"></i> Accuracy</p>
+                    <h3>100%</h3>
+                </div>
+
+                </div>
+    
+                <div id="typingcontent" class="typingcontent">
+                    <p>The quick brown fox jumps over the lazy dog. While practicing your typing every single day, you
+                        will quickly notice a major jump in both your speed and absolute accuracy. Focus on keeping your
+                        eyes on the screen, resting your fingers gently on the home row keys, and moving smoothly from
+                        one letter to the next without pausing. With just fifteen minutes of steady, quiet focus each
+                        morning, even the most difficult combinations of words will soon feel completely natural to your
+                        hands.</p>
+                </div>
+
+                <div id="typingsection" class="typingsection">
+                    <input id="typingsection-input" class="typingsection-input" type="text"
+                        placeholder="start type here...">
+                </div>
+                <button class="startpractice" id="startpractice" type="button">Start Practice</button>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+
+
+    <div id="footer" class="footer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>
+        <div id="footerbar" class="footerbar">
+         <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </div>
+        <div class="footerbar-sec">
+            <p>About Us</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="rights">
+            <p>&copy2026 TypeUp. All rights reserved</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
