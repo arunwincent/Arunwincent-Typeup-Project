@@ -64,3 +64,21 @@ typinginput.addEventListener("input", function() {
         ? Math.round(words / elapsed * 60) + " WPM"
         : "0 WPM";
 });
+<<<<<<< HEAD
+=======
+
+
+var bestSpeed = localStorage.getItem("bestSpeed") || 0;
+var bestAccuracy = localStorage.getItem("bestAccuracy") || 0;
+var testsCompleted = localStorage.getItem("testsCompleted") || 0;
+
+var speedValue = document.getElementById("best-speed");
+var accuracyValue = document.getElementById("best-accuracy");
+var testsValue = document.getElementById("tests-completed");
+
+if (speedValue && accuracyValue && testsValue) {
+    speedValue.textContent = bestSpeed + " WPM";
+    accuracyValue.textContent = bestAccuracy + "%";
+    testsValue.textContent = testsCompleted;
+}
+>>>>>>> 9b6c0f8fd760f75060198e9fabce34206d420a3d
