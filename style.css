@@ -267,6 +267,106 @@ main {
     color: white;
     text-decoration: none;
 }
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    line-height: 1.8;
+}
+
+.about-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(31, 76, 75);
+}
+
+.about-container h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: rgb(31, 76, 75);
+}
+
+.about-container p {
+    margin-bottom: 15px;
+}
+
+.about-intro {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-container ul {
+    padding-left: 25px;
+}
+
+.contact-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: rgb(31, 76, 75);
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: rgb(31, 76, 75);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #245b59;
+}
+
+.contact-details {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.contact-details h2 {
+    color: rgb(31, 76, 75);
+    margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
 
     .firstcontainer{
@@ -340,5 +440,15 @@ main {
 
     .progress-cards {
         flex-direction: column;
+    }
+      .about-container {
+        padding: 25px 15px;
+    }
+
+    .about-intro {
+        font-size: 18px;
+    }
+    .contact-container {
+        padding: 25px 15px;
     }
 }

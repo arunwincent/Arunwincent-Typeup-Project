@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeUp project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="poppins-regular">
+    <div id="firstcontainer" class="firstcontainer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>
+         <nav class="navbar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </nav>
+        <div class="navbar-user">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg><span>User</span></p>
+        </div>
+        <button class="menu-toggle">☰</button>
+
+    </div>
+  <main>
+        <section class="contact-container">
+
+            <h1>Contact Us</h1>
+
+            <p class="contact-intro">
+                Have a question or suggestion? We would love to hear from you!
+            </p>
+
+            <form class="contact-form" action="#" method="post">
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                    placeholder="Enter the subject" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5"
+                    placeholder="Write your message here..."
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <div class="contact-details">
+                <h2>Get in Touch</h2>
+                <p>We welcome your feedback and suggestions to help improve TypeUp.</p>
+            </div>
+
+        </section>
+    </main>
+     <div id="footer" class="footer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>
+        <div id="footerbar" class="footerbar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </div>
+        <div class="footerbar-sec">
+            <p><a href="aboutus.html">About Us</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+        </div>
+         <div class="rights">
+            <p>&copy2026 TypeUp. All rights reserved</p>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
