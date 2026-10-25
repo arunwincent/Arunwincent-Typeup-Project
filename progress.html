@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeUp project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="poppins-regular">
+    <div id="firstcontainer" class="firstcontainer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>   
+       <nav class="navbar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </nav>
+        <div class="navbar-user">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg><span>User</span></p>
+        </div>
+        <button class="menu-toggle">☰</button>
+
+    </div>
+    <main class="progress-container">
+
+        <div class="progress-heading">
+            <h1><i class="fa-solid fa-chart-line"></i> My Progress</h1>
+            <p>Track your typing practice and improvement.</p>
+        </div>
+
+        <div class="progress-cards">
+
+            <div class="progress-card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <h3>Best Speed</h3>
+                <p id="best-speed">0 WPM</p>
+            </div>
+
+            <div class="progress-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <h3>Accuracy</h3>
+                <p id="best-accuracy">0%</p>
+            </div>
+
+            <div class="progress-card">
+                <i class="fa-solid fa-keyboard"></i>
+                <h3>Tests Completed</h3>
+                <p id="tests-completed">0</p>
+            </div>
+
+        </div>
+
+        <div class="progress-history">
+            <h2>Practice History</h2>
+            <p>No practice sessions yet. Start typing to improve your skills!</p>
+        </div>
+
+    </main>
+
+    <div id="footer" class="footer">
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>TypeUp</h2>
+        <div id="footerbar" class="footerbar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="dashboard.html">Dashboard</a></p>
+            <p><a href="progress.html">Progress</a></p>
+        </div>
+        <div class="footerbar-sec">
+            <p><a href="aboutus.html">About Us</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+        </div>
+         <div class="rights">
+            <p>&copy2026 TypeUp. All rights reserved</p>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
